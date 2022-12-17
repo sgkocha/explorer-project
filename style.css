@@ -52,7 +52,7 @@ body{
 .main-story:nth-child(3) .main-story-caption{
     background: url('./images/main-stories-3.png') no-repeat;
 }
-.main-story-title{
+.main-story-title, .featured-story-title{
     display: flex;
     gap: 6px;
     margin-bottom: 6px;
@@ -141,5 +141,112 @@ body{
 .read-more-link:hover{
     background-color: #fff;
     border: 1px solid #fff;
+    color: #8D4FDB;
+}
+.featured-stories{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.featured-stories-container{
+    width: 940px;
+    margin: 0 auto;
+}
+.featured-stories-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #333333
+}
+.featured-stories-subtitle{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 33px;
+    text-align: center;
+    color: #A9AFB3;
+}
+.featured-stories-box{
+    display: flex;
+    justify-content: space-between;
+}
+.featured-story-caption{
+    background: url("/images/featured-stories-1.png") no-repeat;
+    padding-top: 131px;
+}
+.featured-story:nth-child(2) .featured-story-caption{
+    background: url("/images/featured-stories-2.png") no-repeat;
+}
+.featured-story:nth-child(3) .featured-story-caption{
+    background: url("/images/featured-stories-3.png") no-repeat;
+}
+.featured-story-title{
+    align-items: flex-end;
+    padding-left: 24px;
+}
+.featured-story-author{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.featured-story-date{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.featured-story-content{
+    margin-top: 23px;
+    width: 272px;
+}
+.featured-story-desc{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+}
+.read-full{
+    margin-top: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    color: #333333;
+}
+.read-full a {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #8D4FDB;
+}
+.footer{
+    padding-top: 55px;
+    padding-bottom: 45px;
+    background-color: #000000;
+}
+.footer-license, .footer-author {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    color: #8B8B8B;
+}
+.footer a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 28px;
+    text-decoration: none;
     color: #8D4FDB;
 }
