@@ -174,14 +174,14 @@ body{
     justify-content: space-between;
 }
 .featured-story-caption{
-    background: url("/images/featured-stories-1.png") no-repeat;
+    background: url("./images/featured-stories-1.png") no-repeat;
     padding-top: 131px;
 }
 .featured-story:nth-child(2) .featured-story-caption{
-    background: url("/images/featured-stories-2.png") no-repeat;
+    background: url("./images/featured-stories-2.png") no-repeat;
 }
 .featured-story:nth-child(3) .featured-story-caption{
-    background: url("/images/featured-stories-3.png") no-repeat;
+    background: url("./images/featured-stories-3.png") no-repeat;
 }
 .featured-story-title{
     align-items: flex-end;
